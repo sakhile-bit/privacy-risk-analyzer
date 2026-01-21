@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Web Dashboard",
+			"type": "shell",
+			"command": "D:/samcool/.venv/Scripts/python.exe webapp.py",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
