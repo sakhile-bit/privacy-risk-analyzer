@@ -1,7 +1,7 @@
 import argparse
 import sys
 from scanner import scan_github_repo, scan_s3_bucket
-from local_scan import scan_local_folder
+from folder_scanner import scan_local_folder
 
 def main():
     parser = argparse.ArgumentParser(description="Privacy Risk Analyzer: Scan public data for sensitive information leaks.")
