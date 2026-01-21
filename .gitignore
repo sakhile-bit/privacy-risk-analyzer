@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+secrets.*
+
+# Ignore test output
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore local data
+*.sqlite3
+*.db
+
+# Ignore pip wheel
+*.whl
+
+# Ignore S3 credentials (if any)
+.aws/
